@@ -52,6 +52,8 @@ body.light {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body {
@@ -59,6 +61,7 @@ body {
     background: var(--bg);
     color: var(--text);
     overflow-x: hidden;
+    width: 100%;
     transition:
         background 0.4s ease,
         color 0.4s ease;
@@ -524,6 +527,7 @@ body.light .navbar.scrolled {
 
 .hero {
     min-height: 100vh;
+    min-height: 100svh;
     padding-top: 170px;
 
     display: flex;
@@ -540,6 +544,10 @@ body.light .navbar.scrolled {
 
     gap: 80px;
     align-items: center;
+}
+
+.hero-container > * {
+    min-width: 0;
 }
 
 .availability {
@@ -756,6 +764,8 @@ body.light .navbar.scrolled {
 
 .hero-visual {
     min-height: 600px;
+    min-width: 0;
+    overflow: hidden;
 
     display: grid;
     place-items: center;
