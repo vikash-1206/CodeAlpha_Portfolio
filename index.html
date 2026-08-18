@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Modern developer portfolio showcasing projects, skills, experience and contact information.">
+
+    <meta name="theme-color" content="#07070a">
+
+    <title>Vikash Kumar — Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="loader-content">
+            <div class="loader-logo">&lt;/&gt;</div>
+            <div class="loader-line">
+                <span></span>
+            </div>
+            <p>INITIALIZING EXPERIENCE...</p>
+        </div>
+    </div>
+
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+
+    <!-- BACKGROUND -->
+    <div class="background">
+        <div class="grid"></div>
+
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+
+        <canvas id="particles"></canvas>
+    </div>
+
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-symbol">&lt;</span>
+                VK
+                <span class="logo-symbol">/&gt;</span>
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Journey</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <a href="#contact" class="nav-cta">
+                    Let's Talk
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- HERO -->
+        <section class="hero section" id="home">
+
+            <div class="hero-container">
+
+                <div class="hero-content reveal">
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Available for opportunities
+                    </div>
+
+                    <p class="hero-small">
+                        HELLO, I'M
+                    </p>
+
+                    <h1>
+                        Vikash
+                        <span>Kumar.</span>
+                    </h1>
+
+                    <div class="hero-role">
+                        <span class="role-prefix">I build</span>
+
+                        <div class="typing-wrapper">
+                            <span id="typingText"></span>
+                        </div>
+                    </div>
+
+                    <p class="hero-description">
+                        A passionate developer focused on building modern,
+                        interactive and meaningful digital experiences using
+                        technology, creativity and problem solving.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary magnetic">
+                            Explore My Work
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+
+                        <a href="assets/resume.pdf"
+                            class="btn btn-secondary magnetic"
+                            target="_blank">
+                            Download CV
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="hero-socials">
+
+                        <a href="https://github.com/vikash-1206" aria-label="GitHub" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/vikash-kumar-1b5672331" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="mailto:vkb63800@gmail.com" aria-label="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 3D HERO OBJECT -->
+                <div class="hero-visual reveal">
+
+                    <div class="scene">
+
+                        <div class="floating-label label-1">
+                            <i class="fa-brands fa-js"></i>
+                            JavaScript
+                        </div>
+
+                        <div class="floating-label label-2">
+                            <i class="fa-brands fa-react"></i>
+                            React
+                        </div>
+
+                        <div class="floating-label label-3">
+                            <i class="fa-brands fa-java"></i>
+                            Java
+                        </div>
+
+                        <div class="cube">
+
+                            <div class="cube-face front">
+                                <span>&lt;</span>
+                                <strong>CODE</strong>
+                                <span>/&gt;</span>
+                            </div>
+
+                            <div class="cube-face back">
+                                <span>{</span>
+                                <strong>CREATE</strong>
+                                <span>}</span>
+                            </div>
+
+                            <div class="cube-face right">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+
+                            <div class="cube-face left">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="cube-face top">
+                                <i class="fa-solid fa-terminal"></i>
+                            </div>
+
+                            <div class="cube-face bottom">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+
+                        </div>
+
+
+                        <div class="scene-ring ring-1"></div>
+                        <div class="scene-ring ring-2"></div>
+                        <div class="scene-ring ring-3"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">01</span>
+
+                    <div>
+                        <span class="eyebrow">WHO I AM</span>
+                        <h2>
+                            Turning ideas into
+                            <span>digital reality.</span>
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-image reveal">
+
+                        <div class="profile-card tilt-card">
+
+                            <div class="profile-glow"></div>
+
+                            <div class="profile-image">
+    <img src="assets/images/profile.jpg" alt="Vikash Kumar">
+</div>
+
+                            <div class="profile-info">
+
+                                <span>DEVELOPER</span>
+
+                                <h3>Vikash Kumar</h3>
+
+                                <p>
+                                    Building experiences that people remember.
+                                </p>
+
+                            </div>
+
+                            <div class="profile-code">
+                                <span>01</span>
+                                <span>const developer = true;</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-content reveal">
+
+                        <p>
+                            I'm a developer who enjoys transforming
+                            complex problems into clean, intuitive and
+                            engaging digital experiences.
+                        </p>
+
+                        <p>
+                            My interest lies at the intersection of
+                            technology, design and innovation. I enjoy
+                            experimenting with new technologies and
+                            turning ideas into working products.
+                        </p>
+
+                        <p>
+                            From responsive interfaces to intelligent
+                            applications, I focus on creating solutions
+                            that are functional, visually engaging and
+                            enjoyable to use.
+                        </p>
+
+
+                        <div class="about-stats">
+
+                            <div class="stat">
+                                <strong class="counter" data-target="3">0</strong>
+                                <span>+</span>
+                                <p>Projects</p>
+                            </div>
+
+                            <div class="stat">
+                                <strong class="counter" data-target="8">0</strong>
+                                <span>+</span>
+                                <p>Technologies</p>
+                            </div>
+
+                            <div class="stat">
+                                <strong class="counter" data-target="3">0</strong>
+                                <span>+</span>
+                                <p>Years Learning</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section skills-section" id="skills">
+
+            <div class="section-container">
+
+                <div class="section-heading centered reveal">
+
+                    <span class="section-number">02</span>
+
+                    <div>
+                        <span class="eyebrow">MY TOOLKIT</span>
+
+                        <h2>
+                            Skills that turn
+                            <span>ideas into products.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon html">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+
+                        <h3>HTML5</h3>
+
+                        <p>Semantic & accessible web structure.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="95%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Advanced</span>
+                            <span>95%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon css">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+
+                        <h3>CSS3</h3>
+
+                        <p>Modern responsive visual experiences.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="92%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Advanced</span>
+                            <span>92%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon js">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+
+                        <h3>JavaScript</h3>
+
+                        <p>Interactive and dynamic applications.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="88%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Advanced</span>
+                            <span>88%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon react">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+
+                        <h3>React</h3>
+
+                        <p>Component-based modern interfaces.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="85%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Advanced</span>
+                            <span>85%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon python">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+
+                        <h3>Python</h3>
+
+                        <p>Automation, AI and backend development.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="70%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Intermediate</span>
+                            <span>70%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon database">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>SQL</h3>
+
+                        <p>Data modeling and database management.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="70%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Intermediate</span>
+                            <span>70%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon git">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </div>
+
+                        <h3>Git</h3>
+
+                        <p>Version control and collaboration.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="86%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Advanced</span>
+                            <span>86%</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card tilt-card reveal">
+
+                        <div class="skill-icon java">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+
+                        <h3>Java</h3>
+
+                        <p>Object-oriented programming & backend logic.</p>
+
+                        <div class="skill-bar">
+                            <span data-width="80%"></span>
+                        </div>
+
+                        <div class="skill-meta">
+                            <span>Advanced</span>
+                            <span>80%</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="section projects-section" id="projects">
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">03</span>
+
+                    <div>
+
+                        <span class="eyebrow">SELECTED WORK</span>
+
+                        <h2>
+                            Things I've
+                            <span>built.</span>
+                        </h2>
+
+                    </div>
+
+                    <a href="https://github.com/vikash-1206" class="view-all" target="_blank" rel="noopener">
+                        View GitHub
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1: BU Campus Connect -->
+                    <article class="project-card project-large tilt-card reveal">
+
+                        <div class="project-preview dashboard-preview">
+
+                            <div class="mini-dashboard">
+
+                                <div class="mini-sidebar">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="mini-main">
+
+                                    <div class="mini-top">
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="mini-cards">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+
+                                    <div class="mini-chart">
+                                        <div></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="project-info">
+
+                            <div class="project-tags">
+                                <span>Web Platform</span>
+                                <span>JavaScript</span>
+                                <span>UI/UX</span>
+                            </div>
+
+                            <h3>BU Campus Connect</h3>
+
+                            <p>
+                                A campus-focused web platform for discovering
+                                and managing student clubs and activities —
+                                letting students join activities, get notified,
+                                and stay engaged with campus organizations.
+                            </p>
+
+                            <div class="project-links">
+
+                                <a href="https://github.com/vikash-1206" class="project-link" target="_blank" rel="noopener">
+                                    GitHub
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2: CalcX -->
+                    <article class="project-card tilt-card reveal">
+
+                        <div class="project-preview ai-preview">
+
+                            <div class="ai-orb">
+
+                                <div class="ai-core">
+                                    <i class="fa-solid fa-calculator"></i>
+                                </div>
+
+                                <div class="ai-ring ring-a"></div>
+                                <div class="ai-ring ring-b"></div>
+                                <div class="ai-ring ring-c"></div>
+
+                            </div>
+
+                            <div class="ai-text">
+                                CALCX
+                            </div>
+
+                        </div>
+
+                        <div class="project-info">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <h3>CalcX</h3>
+
+                            <p>
+                                A smart scientific calculator with keyboard
+                                and voice input support — handles everything
+                                from basic arithmetic to trig, logs and
+                                memory functions.
+                            </p>
+
+                            <div class="project-links">
+
+                                <a href="https://code-alpha-calc-x.vercel.app/" class="project-link" target="_blank" rel="noopener">
+                                    Live Demo
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3: Nextune -->
+                    <article class="project-card tilt-card reveal">
+
+                        <div class="project-preview music-preview">
+
+                            <div class="music-player">
+
+                                <div class="album">
+                                    <i class="fa-solid fa-music"></i>
+                                </div>
+
+                                <div class="song-info">
+                                    <strong>Nextune</strong>
+                                    <span>Your Music Library</span>
+                                </div>
+
+                                <div class="waveform">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="player-controls">
+                                    <i class="fa-solid fa-backward-step"></i>
+                                    <div class="play-button">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <i class="fa-solid fa-forward-step"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="project-info">
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <h3>Nextune</h3>
+
+                            <p>
+                                A modern music player for browsing and
+                                playing your personal music collection, with
+                                an equalizer, favorites and playlists.
+                            </p>
+
+                            <div class="project-links">
+
+                                <a href="https://code-alpha-nex-tune.vercel.app/" class="project-link" target="_blank" rel="noopener">
+                                    Live Demo
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- JOURNEY -->
+        <section class="section experience-section" id="experience">
+
+            <div class="section-container">
+
+                <div class="section-heading centered reveal">
+
+                    <span class="section-number">04</span>
+
+                    <div>
+
+                        <span class="eyebrow">MY JOURNEY</span>
+
+                        <h2>
+                            Learning,
+                            <span>building & growing.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-marker">
+                            <span></span>
+                        </div>
+
+                        <div class="timeline-date">
+                            Present
+                        </div>
+
+                        <div class="timeline-card tilt-card">
+
+                            <span class="timeline-type">EDUCATION</span>
+
+                            <h3>B.Tech in Computer Science & Engineering</h3>
+
+                            <p>
+                                Currently in my 3rd year, building a strong
+                                foundation in programming, web development
+                                and problem-solving.
+                            </p>
+
+                            <div class="timeline-tech">
+                                Institute of Engineering and Technology, Bundelkhand University, Jhansi
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-marker">
+                            <span></span>
+                        </div>
+
+                        <div class="timeline-date">
+                            2023
+                        </div>
+
+                        <div class="timeline-card tilt-card">
+
+                            <span class="timeline-type">EDUCATION</span>
+
+                            <h3>Class XII</h3>
+
+                            <p>
+                                Completed higher secondary education,
+                                scoring 97.75%.
+                            </p>
+
+                            <div class="timeline-tech">
+                                Lucknow Model Public Inter College
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-marker">
+                            <span></span>
+                        </div>
+
+                        <div class="timeline-date">
+                            2021
+                        </div>
+
+                        <div class="timeline-card tilt-card">
+
+                            <span class="timeline-type">EDUCATION</span>
+
+                            <h3>Class X</h3>
+
+                            <p>
+                                Completed secondary education,
+                                scoring 88%.
+                            </p>
+
+                            <div class="timeline-tech">
+                                Lucknow Model Public Inter College
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="section services-section">
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-number">05</span>
+
+                    <div>
+
+                        <span class="eyebrow">WHAT I DO</span>
+
+                        <h2>
+                            Ideas deserve
+                            <span>great execution.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="services-grid">
+
+
+                    <div class="service-card tilt-card reveal">
+
+                        <span class="service-number">01</span>
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Frontend Development</h3>
+
+                        <p>
+                            Building fast, responsive and interactive
+                            interfaces with modern web technologies.
+                        </p>
+
+                        <div class="service-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-card tilt-card reveal">
+
+                        <span class="service-number">02</span>
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+
+                        <h3>UI / UX Design</h3>
+
+                        <p>
+                            Creating intuitive visual systems that combine
+                            aesthetics, usability and interaction.
+                        </p>
+
+                        <div class="service-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="service-card tilt-card reveal">
+
+                        <span class="service-number">03</span>
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+
+                        <h3>AI & Applications</h3>
+
+                        <p>
+                            Exploring AI-powered applications and intelligent
+                            solutions for real-world problems.
+                        </p>
+
+                        <div class="service-arrow">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <div class="section-container">
+
+                <div class="contact-wrapper reveal">
+
+                    <div class="contact-glow"></div>
+
+                    <div class="contact-content">
+
+                        <span class="eyebrow">HAVE AN IDEA?</span>
+
+                        <h2>
+                            Let's build something
+                            <span>amazing.</span>
+                        </h2>
+
+                        <p>
+                            Whether you have a project in mind, an opportunity
+                            or simply want to say hello, my inbox is always open.
+                        </p>
+
+                        <a href="mailto:vkb63800@gmail.com"
+                            class="email-link">
+                            vkb63800@gmail.com
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+
+                    <form class="contact-form" id="contactForm">
+
+                        <div class="input-group">
+
+                            <label for="name">YOUR NAME</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="John Doe"
+                                required>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="email">YOUR EMAIL</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="john@example.com"
+                                required>
+
+                        </div>
+
+
+                        <div class="input-group">
+
+                            <label for="message">MESSAGE</label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                placeholder="Tell me about your project..."
+                                required></textarea>
+
+                        </div>
+
+
+                        <button type="submit"
+                            class="btn btn-primary submit-btn magnetic">
+
+                            Send Message
+
+                            <i class="fa-solid fa-paper-plane"></i>
+
+                        </button>
+
+                        <p class="form-status" id="formStatus"></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                &lt;VK /&gt;
+            </div>
+
+            <p>
+                Designed & built with curiosity and code.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="https://github.com/vikash-1206" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/vikash-kumar-1b5672331" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>© 2026 Vikash Kumar</span>
+
+            <span>
+                Built with HTML · CSS · JavaScript
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <button class="back-top" id="backTop">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
